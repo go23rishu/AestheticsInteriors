@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+*{
+    margin:auto;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+ .nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100vw;
+    background:white;
+    height:90px;
+    overflow-x: hidden;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 9999;
+
+}
+.menus{
+    margin-top:30px;
+}
+.menus a{
+    margin-left:20px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:green;
+    font-weight: 400;
+    font-size:14px;
+    margin-top:-40px;
+}
+a.call {
+    color:white;
+    background:#009E60;
+    padding:10px 20px;
+    
+}
+i.fa-phone{
+    font-size:18px;
+    margin-right: 10px;
+}
+.logo{
+    height:150px;
+    width:auto;
+    margin-top:-20px;
+}
+/** carousel **/
+.simple-carousel {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-radius: 4px;
+    height: 100vh !important;
+    overflow-x: hidden;
+    /* margin-top:-60px; */
+    /* Carousel Heigth [now is full screen]*/
+}
+
+.simple-carousel ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.simple-carousel ul li.slide {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.simple-carousel ul li.slide.active {
+    opacity: 1;
+}
+
+.simple-carousel a.control_prev,
+a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 5em 2em;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.simple-carousel a.control_prev:hover,
+a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.simple-carousel a.control_prev {
+    left: 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.simple-carousel a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+/* BannerHead */
+.bannerHead{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapperForHeader{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10vh;
+}
+.bestPrices{
+    margin-top: 20vh;
+    font-family: 'Manrope', sans-serif;
+    text-align: left;
+    color: white;
+}
+.bestPrices h2{
+    font-weight:500;
+    font-size: 48px;
+}
+.bestPrices h4{
+    font-size: 32px;
+    width: 350px;
+    margin-top: 50px;
+}
+.servicesProvided label{
+    background-color: #009E60;
+    padding: 10px 20px;
+    height:50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.meetDesignerForm{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 60px 50px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 100px;
+    font-family: 'Manrope', sans-serif;
+}
+.meetDesignerForm h2{
+    font-size:30px;
+}
+.meetDesignerForm form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.meetDesignerForm form input{
+    height:40px;
+    margin-left: -30px;
+    border:none;
+    margin-bottom: 15px;
+    border-bottom: solid 1px grey;
+}
+.meetDesignerForm form input::placeholder{
+    font-size: 14px;
+}
+.meetDesignerForm form button{
+    background-color: #009E60;
+    color: white;
+    text-transform: uppercase;
+    border:none;
+    padding:15px 20px;
+    width: auto;
+}
+.whyAesthetics{
+    font-family: 'Manrope',sans-serif;
+    padding:10vh 5vw;
+    font-weight:500;
+    font-size:18px;
+    text-align: center;
+}
+.aestheticsPoints{
+    list-style:none;
+    display: flex;
+    padding-top:5vh;
+}
+.eachPoint img{
+    height:180px;
+    width:200px;
+}
+
+/* short specials */
+.shortSpecials{
+    display: flex;
+    list-style: none;
+    background:rgb(232, 226, 226);
+    font-family: 'Manrope',sans-serif;
+    padding:2vh 20vw;
+}
+.shortTexts img{
+    width:100px;
+}
+.shortTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right:1px solid grey;
+    padding-right:55px ;
+}
+.shortTexts:last-child,
+.shortTexts:first-child{
+    border:none;
+}
+.shortTexts h3{
+    font-size:18px;
+    font-weight: 500;
+    color:#009E60;
+}
+.shortTexts h4{
+    font-size:13px;
+    color:black;
+}
+/* About Us  */
+
+.about-us,.our-services{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background:whitesmoke;
+    padding:10vh 15vw;
+}
+.about-us h1,.our-services h1{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.about-us p{
+    font-weight: 300;
+    margin-top: 5vh;
+}
+.categories{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap : 25px;
+    margin-top:5vh;
+    font-weight:300;
+}
+.our-services{
+    padding:10vh 5vw;
+    background-color: #F2D2BD;
+}
+.top img{
+    height: 240px;
+    width:240px;
+    border-radius:50%;
+}
+.middle label{
+    font-size:24px; 
+    text-transform: uppercase;
+    margin-top:5px;
+    font-weight: 300;
+}
+.bottom{
+    margin-top:2vh;
+    width:80%;
+    text-align: center;
+}
+.projects{
+    background:white;
+    width:100vh;
+    text-align: center;
+    padding: 10vh 15vw;
+}
+.projects h2{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+/* what is aesthetics al about */
+.toggle-box {
+    display: none;
+}
+
+.toggle-box+label {
+    color: #555;
+    cursor: pointer;
+    display: block;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 23px;
+    padding: .3em 0 .3em 26px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.toggle-box+label+div {
+    display: none;
+    margin: 0 0 14px;
+}
+
+.toggle-box:checked+label:nth-child(n)+div {
+    display: block;
+}
+
+.toggle-box+label:before {
+    position: absolute;
+    content: "\f0fe";
+    font-family: FontAwesome;
+    top: .3em;
+    left: 0px;
+    color: black;
+}
+
+.toggle-box:checked+label {
+    color: black;
+}
+
+.toggle-box:checked+label:before {
+    content: "\f146";
+}
+
+.toggle-box-content {
+    width:100vw;
+    margin-left: -170% !important;
+    background-color: white;
+    padding:10vh 0vw;
+}
+.categoricalImages {
+    display: grid;
+    padding:5vh 10vw;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+}
+.toggle-box-content .categoricalImages img{
+    height:240px;
+    width:auto;
+}
+.eachProjects{
+    margin-top:20px;
+}
+/* Why choose us */
+.subheading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subheading .left{
+    background-image: url("https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height:90vh;
+}
