@@ -1,0 +1,47 @@
+@media screen and (max-width:400px) {
+    .wrapperForHeader{
+        padding:50px 10px;
+    }
+    .bestPrices{
+        margin-left:10px;
+    } 
+    .servicesProvided {
+        width: 95%;
+        margin-left:-10px;
+    }
+    .shortSpecials{
+        padding:35px 10px;
+    }
+    .shortSpecials .item1 img{
+        width:120px;
+    }
+    .shortTexts{
+        text-align: left;
+    }
+    .shortTexts h3{
+        font-size: 14px;
+    }
+    .shortTexts h4{
+        font-size: 12px;
+    }
+    .about-us{
+        padding:65px 15px;
+    }
+    .dealsIn{
+        padding:55px 10px;
+    }
+    .eachSpecialization img{
+        width:180px;
+        height:150px;
+    }
+    .completeHomeInterior .left img{
+        width:300px;
+    }
+        .toggle-box-content {
+            margin-left: -28% !important;
+        }
+    
+        .toggle-box-content .categoricalImages img {
+            height: 100px;
+        }
+}

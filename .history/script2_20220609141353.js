@@ -10,7 +10,6 @@ $(".slide img").on("click", function () {
   $(this).toggleClass("zoomed");
   $(".overlay").toggleClass("active");
 });
-
 function prev2() {
   document.getElementById("slider-container2").scrollLeft -= 270;
 }

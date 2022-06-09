@@ -1,0 +1,13 @@
+@media screen and (min-width:600px) {
+    .mobile-form{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .wrapperForHeader .meetDesignerForm{
+        display: none;
+    }
+    .bannerHead{
+        background-size: 50%;
+    }
+}

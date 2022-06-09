@@ -1,0 +1,30 @@
+@media screen and (max-width:400px) {
+    .wrapperForHeader{
+        padding:50px 10px;
+    }
+    .bestPrices{
+        margin-left:10px;
+    } 
+    .servicesProvided {
+        width: 95%;
+        margin-left:-10px;
+    }
+    .shortSpecials{
+        padding:35px 10px;
+    }
+    .shortSpecials .item1 img{
+        width:120px;
+    }
+    .shortTexts{
+        text-align: left;
+    }
+    .shortTexts h3{
+        font-size: 14px;
+    }
+    .shortTexts h4{
+        font-size: 12px;
+    }
+    .about-us{
+        padding:50px 10px;
+    }
+}

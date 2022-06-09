@@ -1,0 +1,11 @@
+@media screen and (max-width:400px) {
+    .wrapperForHeader{
+        padding:50px 10px;
+    }
+    .bestPrices{
+        margin-left:10px;
+    } 
+    .servicesProvided {
+        width: 90%;
+    }
+}

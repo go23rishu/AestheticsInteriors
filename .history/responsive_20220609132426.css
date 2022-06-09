@@ -1,0 +1,86 @@
+@media screen and (min-width:600px) {
+    .mobile-form{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .wrapperForHeader .meetDesignerForm{
+        display: none;
+    }
+    .bannerHead{
+        background-position: 50%;
+    }
+    .bestPrices{
+        margin-top:100px;
+        margin-left: 50px;
+    }
+    .servicesProvided label{
+        width:110%;
+        margin-top:300px;
+    }
+    .bestPrices h1{
+        font-size: 28px;
+    }
+    .bestPrices h4{
+        font-size: 24px;
+        margin-top: -10px;
+        font-weight: 400;
+    }
+    .meetDesignerForm form{
+        width: 75vw;
+    }
+    .meetDesignerForm form button{
+        width:85vw;
+        margin: auto;
+        margin-left: -25px;
+        margin-top: 10px;
+    }
+    .aestheticsPoints{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 15px;
+    }
+    .eachPoint img{
+        height:100px;
+    }
+    .aestheticsPoints li.eachPoint4{
+        grid-column: 1/span 2;
+    }
+    .shortSpecials{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        padding:15px 10px;
+    }
+    .shortSpecials .item1{
+        grid-row:1 / 4;
+    }
+    .item1 img{
+        width:150px;
+    }
+    .shortTexts{
+        padding:1px 5px;
+        border:none;
+    }
+    .shortTexts h3{
+        font-size: 16px;
+    }
+    .shortTexts h4{
+        font-size: 12px;
+    }
+    .dealsIn{
+        padding:10px 5px;
+    }
+    .specializations{
+        display: grid;
+        grid-template-columns:auto auto;
+    }
+    .eachSpecialization img{
+        height:150px;
+        width:250px;
+    }
+    .completeHomeInterior{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
