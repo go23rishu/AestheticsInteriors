@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+.header-bedroom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:80vh;
+    width:100vw;
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+.header-bedroom img{
+    width:200px;
+    
+}

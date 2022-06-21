@@ -1,0 +1,8 @@
+.header-bedroom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:50vh;
+    background-position:50% 50%;
+    width:100vw;
+}

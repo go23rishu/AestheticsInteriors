@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+.header-bedroom{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:80vh;
+    width:100vw;
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+.header-bedroom img{
+    width:200px;
+}
+.header-bedroom h1{
+    font-size: 48px;
+    color: white;
+}
+.header-bedroom h4{
+    font-size: 16px;
+    color: white;
+}
+.header-bedroom label{
+    font-family: 'Joan',serif;
+    font-size: 22px;
+}
+.header-bedroom h6{
+    margin-top: 20vh;
+    color:black;
+}
+.header-bedroom .button-for-meet{
+    font-family: 'Joan',serif;
+    background-color: #009E60;
+    padding: 12px 30px;
+    margin-top: 10px !important;
+    color:white;
+border-radius: 5px;
+border: none;
+}
+.header-bedroom .button-for-meet a{
+    font-family: 'Joan',serif;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+.header-bedroom .button-for-meet:hover{
+    transition: 1s;
+    transform:scale(1.05);
+}
+.main-image{
+    padding:10vh 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-row-gap: 5vh;
+}
+.show-image{
+    position: relative;
+}
+.main-image .show-image img{
+    width:90%;
+    height:auto;
+}
+.main-image .show-image img:hover{
+    opacity:0.55;
+}
+.show-image .send-button img{
+    height:40px;
+    width:40px;
+    /* filter: grayscale(100%); */
+}
+.show-image .wrapper-for-hovered-div{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    left: 70px;
+}
+.show-image .wrapper-for-hovered-div p{
+    font-family: 'Joan',serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+}
