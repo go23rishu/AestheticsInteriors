@@ -1,0 +1,256 @@
+@media screen and (min-width: 600px) {
+  .mobile-form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  .menus {
+    display: none;
+  }
+  /* New Navbar */
+  .new-nav {
+    height: 75px;
+  }
+  .menus-under-nav {
+    display: none;
+  }
+  .new-nav img {
+    width: 200px;
+    margin-top: -50px;
+  }
+  /* New Banner */
+  .meetDesignerForm {
+    display: none;
+  }
+  .servicesProvided {
+    margin-top: -200px;
+    width: 90%;
+    margin-left: -12px;
+  }
+  .hire-us {
+    width: 80vw;
+    margin-top: 20px;
+  }
+  /* Here's what we can do on Aesthetics */
+  .what-we-can-do {
+    padding: 10vh 1vw;
+  }
+  .what-we-can-do h1 {
+    font-size: 38px;
+  }
+  .what-we-can-do .options {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .options {
+    padding: 15px 20px;
+  }
+  .options li {
+    margin-top: 15px;
+  }
+  .options li a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  .options li a {
+    font-size: 15px;
+    padding: 30px 25px;
+  }
+  /* BannerHead */
+  .wrapperForHeader .meetDesignerForm {
+    display: none;
+  }
+
+  .bannerHead {
+    background-position: 50%;
+  }
+
+  .bestPrices {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .servicesProvided label {
+    width: 110%;
+    margin-top: 300px;
+  }
+
+  .bestPrices h1 {
+    font-size: 28px;
+  }
+
+  .bestPrices h4 {
+    font-size: 24px;
+    margin-top: -10px;
+    font-weight: 400;
+  }
+
+  /* MeetDesignerForm */
+  .meetDesignerForm form {
+    width: 75vw;
+  }
+
+  .meetDesignerForm form button {
+    width: 85vw;
+    margin: auto;
+    margin-left: -25px;
+    margin-top: 10px;
+  }
+  /* What we can do */
+  .what-we-can-do .options {
+    display: none;
+  }
+  .mobile-responsive-options {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .mobile-responsive-options li {
+    list-style: none;
+  }
+  .mobile-responsive-options li a img {
+    width: 45px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .mobile-responsive-options li a {
+    display: flex;
+    flex-direction: column;
+    font-family: "Joan", serif;
+    color: grey;
+    font-size: 14px;
+  }
+  /* Why Aesthetics */
+  .aestheticsPoints {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+  }
+
+  .eachPoint img {
+    height: 100px;
+  }
+
+  .aestheticsPoints li.eachPoint4 {
+    grid-column: 1 / span 2;
+  }
+
+  /* Short Specials */
+  .shortSpecials {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px 10px;
+  }
+
+  .shortSpecials .item1 {
+    grid-row: 1 / 4;
+  }
+
+  .item1 img {
+    width: 150px;
+  }
+
+  .shortTexts {
+    padding: 1px 5px;
+    border: none;
+  }
+
+  .shortTexts h3 {
+    font-size: 16px;
+  }
+
+  .shortTexts h4 {
+    font-size: 12px;
+  }
+
+  /* We are specialized in */
+  .dealsIn {
+    padding: 10px 5px;
+  }
+
+  .specializations {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .eachSpecialization img {
+    height: 150px;
+    width: 250px;
+  }
+
+  /* Complete Home Interior */
+  .completeHomeInterior {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .completeHomeInterior .left img {
+    height: 200px;
+  }
+
+  .completeHomeInterior .right {
+    width: 100vw;
+    margin-top: 25px;
+  }
+
+  .completeHomeInterior .right h3 {
+    font-size: 22px;
+  }
+
+  /* End to End Interior Solution */
+  .categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  /* Look at our Trending Designs */
+  .projects {
+    width: 100vw;
+  }
+
+  .categoricalImages {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .toggle-box-content {
+    margin-left: -28% !important;
+  }
+
+  .toggle-box-content .categoricalImages img {
+    height: 150px;
+  }
+
+  /* Footer */
+  .addressMap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe {
+    width: 90vw;
+  }
+
+  .headquarters {
+    margin-top: 25px;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lower .socialMedia {
+    margin-top: 15px;
+  }
+
+  .lower .contact {
+    margin-top: 15px;
+  }
+}
